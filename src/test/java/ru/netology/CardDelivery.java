@@ -1,7 +1,5 @@
 package ru.netology;
 
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +9,6 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
-import static com.codeborne.selenide.Condition.exactText;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
